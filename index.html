@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="" property="og:description" />
+	<meta content="https://matchmycutegirlfriend.me/" property="og:url" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<style>
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2,
+		.bee-row-3 .bee-col-2 .bee-block-1,
+		.bee-row-3 .bee-col-2 .bee-block-3,
+		.bee-row-5 .bee-col-1 .bee-block-1 {
+			color: #000;
+			direction: ltr;
+			font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%
+		}
+
+		body {
+			background-color: #FFFFFF;
+			color: #000000;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+		}
+
+		a {
+			color: #0068A5
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		p {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 1180px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-button .content {
+			text-align: center
+		}
+
+		.bee-button a {
+			text-decoration: none
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-divider .right {
+			float: right
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-3 .bee-col-1 .bee-block-1 {
+			width: 100%
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-2 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-4 .bee-row-content,
+		.bee-row-5 .bee-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-row-1 {
+			background-color: #d86caa;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-1 .bee-row-content {
+			background-color: #d5d1d1
+		}
+
+		.bee-row-1 .bee-col-1,
+		.bee-row-2 .bee-col-1,
+		.bee-row-3 .bee-col-1,
+		.bee-row-3 .bee-col-2,
+		.bee-row-4 .bee-col-1,
+		.bee-row-5 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-2,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-5 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1,
+		.bee-row-3 .bee-col-1 .bee-block-2,
+		.bee-row-4 .bee-col-1 .bee-block-1 {
+			padding: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2 {
+			padding: 10px;
+			font-size: 16px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-3,
+		.bee-row-3 .bee-col-2 .bee-block-2,
+		.bee-row-3 .bee-col-2 .bee-block-4,
+		.bee-row-5 .bee-col-1 .bee-block-3 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-row-5 .bee-col-1 .bee-block-1,
+		.bee-row-5 .bee-col-1 .bee-block-2 {
+			padding: 10px
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2 a,
+		.bee-row-3 .bee-col-2 .bee-block-1 a,
+		.bee-row-3 .bee-col-2 .bee-block-3 a,
+		.bee-row-5 .bee-col-1 .bee-block-1 a {
+			color: #7747FF
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-1 p:not(:last-child),
+		.bee-row-3 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-5 .bee-col-1 .bee-block-1 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-1,
+		.bee-row-3 .bee-col-2 .bee-block-3 {
+			padding: 10px;
+			font-size: 21px;
+			text-align: left
+		}
+
+		.bee-row-5 .bee-col-1 .bee-block-1 {
+			font-size: 21px;
+			text-align: left
+		}
+
+		@media (max-width:768px) {
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-2,
+			.bee-row-3 .bee-col-2 .bee-block-1 {
+				font-size: 21px !important
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-1 h1 {
+				font-size: 33px !important
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-3 .bee-button-content {
+				font-size: initial !important;
+				line-height: normal !important;
+				text-align: center !important
+			}
+
+			.bee-row-2 .bee-col-1 .bee-block-3 a,
+			.bee-row-2 .bee-col-1 .bee-block-3 span {
+				text-align: center !important;
+				font-size: 16px !important;
+				line-height: auto !important
+			}
+
+			.bee-row-3 .bee-col-1 .bee-block-2 h1 {
+				font-size: 29px !important
+			}
+
+			.bee-row-3 .bee-col-2 .bee-block-3 {
+				text-align: left !important;
+				font-size: 21px !important
+			}
+
+			.bee-row-5 .bee-col-1 .bee-block-1 {
+				padding: 10px !important;
+				font-size: 21px !important
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-image"><img class="bee-center bee-autowidth" src="https://drive.usercontent.google.com/download?id=1B-6jgs09q0fLjODQy3irV6CFOtXL4B4N&authuser=0" width="100" height="100" alt="mycutegirlfriend"></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1 style="color:#7747FF;direction:ltr;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:38px;font-weight:700;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;"><span style="color: #000000;"><strong>World's Leading AI Dating Assistant</strong></span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>Looking for an exclusive romantic partner, True love, mariage ....</p>
+						<p>Meet Your Future, Proven Results.</p>
+						<p>91% Success Rate | 7000+ Happy Couples</p>
+						<p>47% Fall In Love With Their First Date</p>
+						<p>Discover this amazing dating Tool</p>
+					</div>
+					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="https://jipda.ttrk.io/click" style="font-size: 16px; background-color: #cf1c42; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 4px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; font-weight: 400; letter-spacing: 0px; max-width: 100%; padding-bottom: 5px; padding-left: 60px; padding-right: 60px; padding-top: 5px; width: auto; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">Continue ></span></a></div>
+                </div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://i.ibb.co/chDLcHn3/imga.png" style="max-width:579px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1 style="color:#7747FF;direction:ltr;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:38px;font-weight:700;letter-spacing:normal;line-height:120%;text-align:left;margin-top:0;margin-bottom:0;"><span style="color: #000000;">Everything is for you </span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p><strong>How are we differ from the others ? </strong><br /><br />We have developed a unique tool that will allow you to find “the only one”. </p>
+						<p>The algorithm selects the right girl for you, based on the data of your profile. </p>
+						<p>Our tool will make your experience truly unique and unforgettable.<br /><br />You no longer have to waste time looking for the perfect match. </p>
+						<p>We will do everything for you! </p>
+					</div>
+					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content" href="https://jipda.ttrk.io/click" style="font-size: 16px; background-color: #cf1c42; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 4px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; font-weight: 400; letter-spacing: 0px; max-width: 100%; padding-bottom: 5px; padding-left: 60px; padding-right: 60px; padding-top: 5px; width: auto; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 150%; letter-spacing: normal;">Click to find an exclusive romantic partner</span></a></div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p>Every day we will send individually selected matches to your email.<br /><br />We believe that a perfect match is possible only if you fill out your profile honestly. </p>
+						<p>That is why we ask our users to fill out their profiles honestly and openly. </p>
+						<p>Based on these answers, we select the ideal profile, based on which you can make a decision.</p>
+					</div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="https://jipda.ttrk.io/click" style="font-size: 16px; background-color: #cf1c42; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 4px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; font-weight: 400; letter-spacing: 0px; max-width: 100%; padding-bottom: 5px; padding-left: 60px; padding-right: 60px; padding-top: 5px; width: auto; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 150%; letter-spacing: normal;">Click and Enter your email to view confidential matches</span></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1 style="color:#000;direction:ltr;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:25px;font-weight:700;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;"><span class="tinyMce-placeholder">Dating website Structure and Database :</span> </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>✅Simple to Use and Easy communication</p>
+						<p>✅Services designed to find potential partners</p>
+						<p>✅Platforms for individuals seeking serious relationships</p>
+						<p>✅FREE to join</p>
+						<p>✅No Card Required</p>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="https://jipda.ttrk.io/click" style="font-size: 16px; background-color: #cf1c42; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 4px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; font-weight: 400; letter-spacing: 0px; max-width: 100%; padding-bottom: 5px; padding-left: 60px; padding-right: 60px; padding-top: 5px; width: auto; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 16px; line-height: 150%; letter-spacing: normal;">Click to unlock your true love at mycutegirlfriends</span></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
